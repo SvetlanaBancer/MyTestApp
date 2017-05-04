@@ -13,7 +13,7 @@ public class AppTest2 {
     public static void test1(){
         System.out.println("Test1");
         
-        Map<String, String> env1 = System.getenv();
+        Map<String, String> env = System.getenv();
         for (String envName : env.keySet()) {
             System.out.format("%s=%s%n",
                     envName,
