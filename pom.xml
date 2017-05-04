@@ -39,6 +39,7 @@
           <threadCount>10</threadCount>
           <excludes>
             <exclude>g1.AppTest</exclude>
+            <exclude>g1.AppTest2</exclude>
           </excludes>
 
         </configuration>
