@@ -5,4 +5,9 @@
             <class name="org.softpost.AppTest" />
         </classes>
     </test>
+    <test name="a-t2" preserve-order="true" >
+        <classes>
+            <class name="org.softpost.AppTest2" />
+        </classes>
+    </test>
 </suite>
