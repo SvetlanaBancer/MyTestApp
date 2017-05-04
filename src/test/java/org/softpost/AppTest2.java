@@ -1,4 +1,5 @@
 package org.softpost;
+
 import org.testng.annotations.Test;
 
 import java.util.Map;
@@ -7,7 +8,7 @@ import java.util.Properties;
 /**
  * Unit test for simple App.
  */
-public class AppTest{
+public class AppTest2 {
     @Test(groups = {"sanity","smoke"})
     public static void test1(){
         System.out.println("Test1");
