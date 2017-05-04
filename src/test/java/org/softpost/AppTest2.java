@@ -15,9 +15,9 @@ public class AppTest2 {
         
         Map<String, String> env = System.getenv();
         for (String envName : env.keySet()) {
-            System.out.format("%s=%s%n",
+/*            System.out.format("%s=%s%n",
                     envName,
-                    env.get(envName));
+                    env.get(envName));*/
         }
 //System.out.println("TeamCity build name " + System.getenv("build_number"));
        // org.apache.log4j.Logger.getLogger(DriverUtil.class).info(":: PlanName :: " + System.getenv("bamboo_planName"));
