@@ -29,6 +29,6 @@ props.list(System.out);
 
     @Test
     public static void test2(){
-        System.out.println("Test2");
+        System.out.println("Test22");
     }
 }
