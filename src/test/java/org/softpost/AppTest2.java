@@ -19,8 +19,8 @@ public class AppTest2 {
                     envName,
                     env.get(envName));
         }
-System.out.println("TeamCity build name " + System.getenv("build_number"));
-        org.apache.log4j.Logger.getLogger(DriverUtil.class).info(":: PlanName :: " + System.getenv("bamboo_planName"));
+//System.out.println("TeamCity build name " + System.getenv("build_number"));
+  //      org.apache.log4j.Logger.getLogger(DriverUtil.class).info(":: PlanName :: " + System.getenv("bamboo_planName"));
 System.out.println("*****************************************System properties*****************************************");
 Properties props = System.getProperties();
 props.list(System.out);
